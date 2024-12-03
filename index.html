@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage with a JavaScript onclick event and a clean layout using CSS Flexbox.">
+    <meta name="author" content="Your Name">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>My Webpage</h1>
+            <ul>
+                <li><a href="#section1">Gallery</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Gallery Section -->
+        <section id="section1" class="gallery-section">
+            <h2>Image Gallery</h2>
+            <div class="gallery">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1270428908/photo/cute-cat.jpg?s=1024x1024&w=is&k=20&c=dblL_Pk6jtE8etQlX0NcEmZdghYqbv4kKocN_E7phW0=" alt="Placeholder 1">
+                    <p>This is a picture of a Cat</p>
+                </div>
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1885088156/photo/happy-dog-looking-up-at-camera-with-smile.jpg?s=1024x1024&w=is&k=20&c=B7-5xHHDgmaCkNjs4XCtM9dkhVjWowmPXsXVTAOeEhE=" alt="Placeholder 2">
+                    <p>This image represents a dog</p>
+                </div>
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1642630344/photo/grazing-pony-early-morning.jpg?s=1024x1024&w=is&k=20&c=6BHEnAReFAw-2NOpQ7iuLWjIjZNjMT1wwayDmqWuiqw=" alt="Placeholder 3">
+                    <p>This image depicts a horse</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="section2" class="about-section">
+            <h2>About Us</h2>
+            <p>My Name is Cian MacDonald, I am a student software engineer and I play rugby, milk cows, haul big loads (nae half loads here) and drive felony speeds.</p>
+            <button id="alertButton">Click Me</button>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="section3" class="contact-section">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
