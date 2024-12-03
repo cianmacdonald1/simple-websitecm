@@ -1,3 +1,3 @@
 document.getElementById('alertButton').onclick = function () {
-    alert('Button clicked!');
+    alert('My snapchat is cian.macdonald');
 };
